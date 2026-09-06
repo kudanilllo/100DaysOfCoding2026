@@ -3,7 +3,7 @@ public class Day5 {
 
     public static void main(String[] args) {
 
-        // Tipe bilangan desimal
+        // Tipe data bilangan desimal  float,double
         float tinggiBadan = 165.5f;
         double luasBumi = 510072000.75;
 
