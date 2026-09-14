@@ -29,7 +29,7 @@ public class Day13 {
         System.out.println("Nama\t\t:" + nama);
         System.out.println("Umur\t\t:" + umur + " Tahun");
         System.out.println("Tinggi\t\t:" + tinggi + "cm");
-        System.out.println("Berat Badan\t:" + bb + "kga");
+        System.out.println("Berat Badan\t:" + bb + "kg");
         System.out.println("Jenis kelamin\t:" + sex);
         System.out.println("No. Telpon\t:" + "+62" + noTlpn);
 
