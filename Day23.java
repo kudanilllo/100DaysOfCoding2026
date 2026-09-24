@@ -5,7 +5,7 @@ public class Day23 {
         // proses
         luas = sisi * sisi;
 
-        System.out.println("Luas: " + luas);
+        System.out.println("Luas: " + luas + "cm2");
 
     }
 }
