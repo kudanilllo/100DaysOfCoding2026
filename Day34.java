@@ -1,12 +1,14 @@
 public class Day34 {
     public static void main(String[] args) {
-        int nilaiUjian = 90;
+        int a = 1;
 
-        if (nilaiUjian >= 70) { // nilai di atas 70 atau 70 akan bernilai true
-            System.out.println("Anda lulus!"); // kode ini akan di jalankan jika kondisi if di atas bernilai true
-        } else if (nilaiUjian < 70) {// pengeceekan akan turun di else if jika kondisi di atas nya false
-            System.out.println("Maaf anda tidak lulus!");// kode ini akan di eksekusi apabila kondisi else if true
-        } 
+        if (a == 1) {
+            System.out.println("a == 1"); 
+        } else if (a == 2) {
+            System.out.println("a == 2");
+        } else { 
+            System.out.println("a tidak 1 dan 2");
+        }
 
     }
 }
