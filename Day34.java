@@ -7,7 +7,7 @@ public class Day34 {
         } else if (a == 2) {
             System.out.println("a == 2");
         } else { 
-            System.out.println("a tidak 1 dan 2");
+            System.out.println("a bukan 1 dan 2");
         }
 
     }
