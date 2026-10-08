@@ -1,17 +1,20 @@
 import java.util.Scanner;
 
-public class Day36 {
+public class Day37 {
     public static void main(String[] args) {
-        int a;
         Scanner in = new Scanner(System.in);
-        a = in.nextInt();
 
-        if (a == 0) {
-            System.out.println("Bilangan == 0");
-        } else if (a % 2 == 0) {
-            System.out.println("Bilangan genap");
+        System.out.print("Masukkan bilangan: ");
+        int a = in.nextInt();
+
+        if (a > 0) {
+            System.out.println(a + " adalah bilangan positif");
+        } else if (a < 0) {
+            System.out.println(a + " adalah bilangan negatif");
         } else {
-            System.out.println("Bilangan ganjil");
+            System.out.println("Bilangannya nol");
         }
+
+        in.close();
     }
 }
