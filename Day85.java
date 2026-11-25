@@ -10,6 +10,6 @@ public class Day84 {
 
         }
 
-        System.out.println(max);
+        System.out.println(min);
     }
 }
